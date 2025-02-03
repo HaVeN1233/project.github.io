@@ -9,13 +9,13 @@ body {
 
 
 h1, h2, h3 {
-    color: #0000ff; 
+    color: white; 
     margin-bottom: 10px;
 }
 
 
 p {
-    color: #000080; 
+    color: white; 
     margin: 10px 20px;
     line-height: 1.5;
 }
