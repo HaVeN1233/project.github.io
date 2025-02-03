@@ -1,35 +1,35 @@
 body {
-    background-color: #add8e6; /* Light blue background */
-    color: #000080; /* Navy text for contrast */
+    background-color: #add8e6; 
+    color: #000080; 
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
-/* Headings */
+
 h1, h2, h3 {
-    color: #0000ff; /* Strong blue for headers */
+    color: #0000ff; 
     margin-bottom: 10px;
 }
 
-/* Paragraphs */
+
 p {
-    color: #000080; /* Navy for paragraph text */
+    color: #000080; 
     margin: 10px 20px;
     line-height: 1.5;
 }
 
-/* Navigation buttons */
+
 .nav-container {
     display: flex;
     justify-content: center;
-    gap: 10px; /* Space between buttons */
+    gap: 10px; 
     margin: 20px 0;
 }
 
 .nav-button {
-    background-color: #000080; /* Dark blue */
+    background-color: #000080; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -38,27 +38,27 @@ p {
     font-size: 16px;
     text-align: center;
     cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a button shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
 }
 
 .nav-button:hover {
-    background-color: #4169e1; /* Slightly lighter blue on hover */
+    background-color: #4169e1;
 }
 
-/* Box container for separating buttons and text */
+
 .box-container {
-    background-color: white; /* White background for separation */
-    border: 2px solid #000080; /* Navy border */
+    background-color: white; 
+    border: 2px solid #000080; 
     border-radius: 10px;
     padding: 20px;
     margin: 20px auto;
-    width: 80%; /* Responsive width */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    width: 80%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-/* Back button styling */
+
 button {
-    background-color: #000080; /* Dark blue */
+    background-color: #000080; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -70,5 +70,5 @@ button {
 }
 
 button:hover {
-    background-color: #4169e1; /* Slightly lighter blue on hover */
+    background-color: #4169e1; 
 }
