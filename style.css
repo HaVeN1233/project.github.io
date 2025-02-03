@@ -1,91 +1,36 @@
-/* Importing Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-
 body {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    background: url('food-background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: white;
+    background-color: blue;
+    color: white; /* White text for good contrast */
+    font-family: Arial, sans-serif; /* Clean and modern font */
+    text-align: center; /* Centers text content */
 }
 
-header {
-    background: rgba(255, 100, 0, 0.8);
-    padding: 15px;
-    border-radius: 10px;
+h1, h2, h3 {
+    color: lightyellow; /* Light yellow for headers to stand out */
 }
 
-header h1 {
-    margin: 0;
-    font-size: 28px;
+p {
+    color: white; /* Keeping paragraphs white for readability */
 }
 
-nav a {
-    text-decoration: none;
-    color: white;
-    padding: 10px 20px;
-    font-weight: bold;
-    transition: 0.3s;
+a {
+    color: cyan; /* Cyan for links to complement blue */
+    text-decoration: none; /* Removes underline for a cleaner look */
 }
 
-nav a:hover {
-    background: white;
-    color: orange;
-    border-radius: 5px;
-}
-
-.home-content, .info-content {
-    margin-top: 50px;
+a:hover {
+    color: lightgreen; /* Changes color when hovering over links */
 }
 
 button {
-    margin-top: 20px;
-    padding: 12px 20px;
-    font-size: 18px;
-    background: orange;
+    background-color: navy; /* Darker blue for buttons */
     color: white;
     border: none;
-    border-radius: 5px;
+    padding: 10px 20px;
     cursor: pointer;
-    transition: 0.3s;
+    border-radius: 5px;
 }
 
 button:hover {
-    background: darkorange;
-}
-
-.foods-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 30px;
-}
-
-.food-item {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 15px;
-    border-radius: 10px;
-    width: 250px;
-    text-align: center;
-    color: black;
-    transition: transform 0.3s;
-}
-
-.food-item img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.food-item:hover {
-    transform: scale(1.05);
-}
-
-.back-btn {
-    margin-top: 30px;
-    background: red;
-}
-
-.back-btn:hover {
-    background: darkred;
+    background-color: royalblue; /* Slightly lighter blue on hover */
 }
