@@ -1,36 +1,48 @@
 body {
-    background-color: blue;
-    color: white; /* White text for good contrast */
-    font-family: Arial, sans-serif; /* Clean and modern font */
-    text-align: center; /* Centers text content */
+    background-color: #add8e6; /* Light blue background */
+    color: #000080; /* Navy text for better contrast */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
 }
 
 h1, h2, h3 {
-    color: lightyellow; /* Light yellow for headers to stand out */
+    color: #0000ff; /* A stronger blue for headers */
 }
 
 p {
-    color: white; /* Keeping paragraphs white for readability */
+    color: #000080; /* Navy for paragraph text */
 }
 
 a {
-    color: cyan; /* Cyan for links to complement blue */
-    text-decoration: none; /* Removes underline for a cleaner look */
+    color: #4169e1; /* Royal blue for links */
+    text-decoration: none;
 }
 
 a:hover {
-    color: lightgreen; /* Changes color when hovering over links */
+    color: #1e90ff; /* Dodger blue on hover */
 }
 
 button {
-    background-color: navy; /* Darker blue for buttons */
+    background-color: #000080; /* Darker blue for buttons */
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
+    margin: 5px;
 }
 
 button:hover {
-    background-color: royalblue; /* Slightly lighter blue on hover */
+    background-color: #4169e1; /* Slightly lighter blue on hover */
+}
+
+.box-container {
+    background-color: white; /* Box background to separate content */
+    border: 2px solid #000080; /* Navy border for the box */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; /* Box width to adjust responsiveness */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for style */
 }
