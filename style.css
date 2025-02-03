@@ -1,6 +1,6 @@
 body {
     background-color: #add8e6; 
-    color: white; 
+    color: #000080; 
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
@@ -9,13 +9,13 @@ body {
 
 
 h1, h2, h3 {
-    color: white; 
+    color: #0000ff; 
     margin-bottom: 10px;
 }
 
 
 p {
-    color: white; 
+    color: #000080; 
     margin: 10px 20px;
     line-height: 1.5;
 }
