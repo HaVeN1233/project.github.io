@@ -1,25 +1,74 @@
-/* Common button styles for all buttons */
-button, .nav-button {
-    background-color: #000080; /* Darker blue */
+body {
+    background-color: #add8e6; /* Light blue background */
+    color: #000080; /* Navy text for contrast */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #0000ff; /* Strong blue for headers */
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    color: #000080; /* Navy for paragraph text */
+    margin: 10px 20px;
+    line-height: 1.5;
+}
+
+/* Navigation buttons */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+    margin: 20px 0;
+}
+
+.nav-button {
+    background-color: #000080; /* Dark blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a button shadow */
+}
+
+.nav-button:hover {
+    background-color: #4169e1; /* Slightly lighter blue on hover */
+}
+
+/* Box container for separating buttons and text */
+.box-container {
+    background-color: white; /* White background for separation */
+    border: 2px solid #000080; /* Navy border */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; /* Responsive width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Back button styling */
+button {
+    background-color: #000080; /* Dark blue */
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-    text-decoration: none; /* Ensures links styled as buttons don't underline */
-    margin: 5px;
-    display: inline-block; /* For inline buttons like navigation */
-    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-button:hover, .nav-button:hover {
+button:hover {
     background-color: #4169e1; /* Slightly lighter blue on hover */
-}
-
-/* Optional: Add specific alignment or box layout for navigation buttons */
-.nav-container {
-    display: flex;
-    justify-content: center;
-    gap: 10px; /* Adds spacing between buttons */
-    margin-bottom: 20px; /* Space below the navigation bar */
 }
